@@ -1,4 +1,8 @@
-import ListRender from "./ListRender"
+import ListRender from "./ListRender";
+import ClickEvent from "./ClickEvent";
+import Counter from "./Counter";
+
+
 function App() {
 
 const fruits = [
@@ -21,6 +25,11 @@ const vegetables = [
     <>
       {fruits.length > 0 ? <ListRender List={fruits} categories="Fruits" /> : null}{/*//conditional rendering is applied in the line for ckeck that array is available or not*/} 
       <ListRender List={vegetables} categories="Vegetable" />
+      <hr />
+      <ClickEvent></ClickEvent>
+      <hr />
+      <Counter></Counter>
+      <hr />
     </>
   );
 }

@@ -44,7 +44,7 @@ function ListRender(props) {
 }
 
 ListRender.propTypes={
-    categories : PropTypes.String,
+    categories : PropTypes.string,
     List: PropTypes.array,
 }
 ListRender.defaultProps = {

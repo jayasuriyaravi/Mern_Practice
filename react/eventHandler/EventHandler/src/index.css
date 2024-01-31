@@ -1,0 +1,14 @@
+.con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.box{
+  margin-bottom: 50px;
+  height: 200px;
+  width: 200px;
+  padding: 1px;
+  border: solid 1px ;
+}
