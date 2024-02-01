@@ -2,6 +2,7 @@ import Event from "./Event"
 import ColorPick from "./ColorPick"
 import Objects from "./objects"
 import Array from "./Array"
+import ArrayObject from "./ArrayObject"
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       <Objects></Objects>
       <hr />
       <Array></Array>
+      <h1>hello</h1>
+      <hr />
+      <ArrayObject></ArrayObject>
     </>
 
   )
