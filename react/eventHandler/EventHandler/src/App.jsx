@@ -1,6 +1,6 @@
 import Event from "./Event"
 import ColorPick from "./ColorPick"
-import Objects from "./objects"
+import Objects from "./Objects"
 import Array from "./Array"
 import ArrayObject from "./ArrayObject"
 
