@@ -1,0 +1,16 @@
+body{
+  background-image: url(assets/back-img.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+span{
+  font-size: 100px;
+  text-shadow: 3px 3px 5px white;
+}
