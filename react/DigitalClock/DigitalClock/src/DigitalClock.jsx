@@ -1,6 +1,6 @@
-import { useState,useEffect } from "react"
+import { useState, useEffect } from "react"
 
-function DigitalClock(){
+function DigitalClock() {
 
     const [time, settime] = useState(new Date());
 
@@ -22,7 +22,7 @@ function DigitalClock(){
         return `${hour} : ${min} :${sec}`
     }
 
-    return(
+    return (
         <div className="clock_con">
             <div className="clock">
                 <span>{formatTime()}</span>

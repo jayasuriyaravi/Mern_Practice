@@ -1,10 +1,12 @@
 
 import DigitalClock from "./DigitalClock"
+import Adfunction from "./Adfunction"
 function App() {
 
   return (
     <>
-      <DigitalClock></DigitalClock>
+      {/* <DigitalClock></DigitalClock> */}
+      {/* <Adfunction></Adfunction> */}
     </>
   )
 }

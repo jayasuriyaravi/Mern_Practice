@@ -1,10 +1,10 @@
 
 // import React,{useState} from "react";
-import React,{useState} from "react";
+import {useState} from "react";
 function ClickEvent() {
 
     // const run = () => console.log("haii iam jayasuriya"); //without any parameters
-    // const run = (name) => console.log(`haiii iam ${name}`); //with using parameters,use callback function in onclick fundtion
+    // const run = (name) => console.log(`haiii iam ${name}`); //with using parameters,use callback function in onclick function
 
 
 
