@@ -1,6 +1,15 @@
 import img from './assects/img2.JPG'
 import Button from './Button/Button.jsx';
 import PropType from 'prop-types';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { fas, far, fal } from '@awesome.me/kit-KIT_CODE/icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee, faCog, faUser } from '@fortawesome/free-solid-svg-icons';
+// import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
+
+
+
 
 function Card(props) {
     // Creating the object for the inline style in css
@@ -18,13 +27,20 @@ function Card(props) {
                 <h2 className="CardHeading">{props.Heading}</h2><b>{props.DOB}</b>
                 <p className="des">Iam an student ,Studing in the Rajalakshmi Engineering college</p>
                 <p>Interesed in <b>Web Devlopement</b></p>
+                <div>
+                    {/* <FontAwesomeIcon icon={faTwitter} /> */}
+                    {/* <FontAwesomeIcon icon={faLinkedin} /> */}
+                    <FontAwesomeIcon icon={faCoffee} style={{color:"blue"}}/>
+                    <FontAwesomeIcon icon={faUser} />
+                    <FontAwesomeIcon icon={faCog} />
+                </div>
                 <Button />{/*button component imported and used */}
             </div>
         </div>
     );
 }
 
-Card.propTypes= {
+Card.propTypes = {
     Heading: PropType.String,
     DOB: PropType.Number,
 }
